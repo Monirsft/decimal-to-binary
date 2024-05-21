@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+int num,reminder;
+scanf("%d",&num);
+while(num!=0){
+    reminder=num%2;
+    num=num/2;
+    printf("%d",reminder);
+
+
+}
+
+
+
+}
